@@ -25,7 +25,7 @@ class Emlx(object):
 
 
     def __str__(self):
-        return "Emlx Mail : %s " % (self.filename_)
+        return "Emlx Mail : %s " % (self.filename)
 
 
     def parse(self):
