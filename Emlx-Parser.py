@@ -4,13 +4,12 @@
 Emlx Parser 
 Base script by https://gist.github.com/5276813.git
 
-Update By Thxer - thxer.com
+Update By Thxer.com
 
 """
 
 
 import email
-from email.parser import Parser
 import html2text
 
 class Emlx(object):
@@ -26,7 +25,7 @@ class Emlx(object):
 
 
     def __str__(self):
-        return "Emlx Mail : %s " % (self.return_)
+        return "Emlx Mail : %s " % (self.filename_)
 
 
     def parse(self):
