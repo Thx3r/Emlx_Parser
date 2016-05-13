@@ -15,18 +15,19 @@ __Run it !__
 	python3.4  Emlx-Parser.py
 
 		
-		From : a@fakemeail.com
-		To : b@fakemeail.com
-		Subject : EXEMPLE
-		Date : Mon, 3 Aug 2015 10:12:38 +0200
-		--------- TXT ---------
-		Fake txt content
-		
-		-----------------------
-		----- HTML 2 TEXT -----
-		This is Html
-		-----------------------
-		----- HTML 2 TEXT -----
-		<b>This is Html</b>
-		-----------------------
+	usage: Emlx-Parser.py [-h] [--html] [--txt] [--html2txt] [--json] [--head]
+	                      file [file ...]
+	
+	Parser for emlx mail files
+	
+	positional arguments:
+	  file        Emlx mail file
+	
+	optional arguments:
+	  -h, --help  show this help message and exit
+	  --html      Get html content
+	  --txt       Get txt content
+	  --html2txt  Get html content in text format
+	  --json      Get all in json
+	  --head      Get head summary
 
