@@ -96,7 +96,7 @@ class Emlx(object):
         clean["From"] = self.email["From"]
         clean["To"] = self.email["To"]
         clean["Subject"] = self.email["Subject"]
-        clean["Date"] = str(datetime.datetime.strptime(self.email["Date"] , "%a, %d %B %Y %H:%M:%S %z"))
+        clean["Date"] = str(datetime.datetime.strptime(self.email["Date"] , "%a, %d %b %Y %H:%M:%S %z"))
         clean["txt"] = self.txt
         clean["html"] = self.html 
         clean["html2txt"] = self.html2txt 
